@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+body {
+    background-color: #82CDFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.winner-title {
+    height: 74px;
+    width: 430px;
+    background-color: #0099FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 700;
+    border-radius: 12px 12px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scoreboard {
+    height: 148px;
+    width: 950px;
+    background-color: #0099FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+}
+
+.scoreboard-playername {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.playername-1{
+    padding-right: 19px;
+}
+.playername-2{
+    padding-left: 29px;
+}
+
+.score {
+    height: 120px;
+    background-color: #DBF1FF;
+    border-radius: 17px;
+    font-size: 104px;
+    font-weight: 900;
+    justify-content: center;
+    line-height: 108px;
+    text-align: center;
+    color: #0099FF;
+}
+
+.vs-small{
+    display: flex;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    width:74px;
+    height:78px;
+    color: #ffffff;
+    font-size: 58px;
+    margin: 0 40px;
+}
+
+.battle-field{
+    margin-top: 56px;
+    height: 414px;
+    display: flex;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.button-play{
+    width: 220px;
+    height: 80px;
+    background-color: #0099FF;
+    color: #DBF1FF;
+    font-size: 44px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transform: 300ms;
+    box-shadow: 1px 1px 10px #000407c0;
+}
+
+.button-play:hover{
+    background-color: transparent;
+    border: 1px solid #0099ffc0;
+    color: #0099ff;
+    box-shadow: 3px 3px 3px #0099ffc0;
+}
+
+.field-box{
+    width:1313px;
+    height: 414px;
+    background-color: #0099ffc0;
+    border-radius: 17px;
+    margin: 0 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.field{
+    width: 464px;
+    height: 345px;
+    background-color:#DBF1FF ;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vs-big{
+    font-size: 104px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.config{
+    margin-top: 22px;
+}
+
+.button-config{
+    width: 238px;
+    height: 69px;
+    color:#FFFFFF ;
+    font: normal normal 600 33px/44px Segoe UI;
+    font-size: 33px;
+    border-radius: 6px;
+    background-color: #0099FF;
+    border: none;
+    box-shadow: 1px 1px 10px #000407c0;
+    cursor: pointer;
+}
+
+.button-config:hover{
+    background-color: transparent;
+    border: 1px solid #0099ffc0;
+    color: #0099ff;
+    box-shadow: 3px 3px 3px #0099ffc0;
+    transform: scale(1.1);
+}
+
+.button-start{
+    margin-right: 101px;
+}
+
+.move-image{
+    width: 70%;
+}
+.field-box-player-2 img{
+    transform: scalex(-1);
+}
