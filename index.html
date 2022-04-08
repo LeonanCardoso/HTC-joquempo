@@ -11,13 +11,13 @@
 </head>
 
 <body>
-    <h1 class="winner-title">Jogadora 1 ganhou!</h1>
+    <h1 class="winner-title">Resultado</h1>
     <section class="scoreboard">
-        <span class="scoreboard-playername playername-1">Jogadora 1</span class="scoreboard-player">
-        <strong class="score">01</strong>
+        <span class="scoreboard-playername playername-1">Player 1</span class="scoreboard-player">
+        <strong class="score" title="Pontuação da jogadora 01">01</strong>
         <strong class="vs-small">VS</strong>
-        <strong class="score">02</strong>
-        <span class="scoreboard-playername playername-2">Jogadora 2</span class="scoreboard-player">
+        <strong class="score" title="Pontuação da jogadora 02">02</strong>
+        <span class="scoreboard-playername playername-2">Player 2</span class="scoreboard-player">
     </section>
     <section class="battle-field">
         <div class="button-wrapper">
@@ -40,7 +40,7 @@
         </div>
     </section>
     <section class="config">
-        <button class="button-config button-start">Iniciar</button>
+        <button class="button-config button-start" onclick="verifyWinner()">Iniciar</button>
         <button class="button-config button-reset">Resetar</button>
     </section>
 
